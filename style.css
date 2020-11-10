@@ -56,4 +56,7 @@ h2 {
 .footer {
     background-color: #F7D5E7;
     margin-top: 5%;
+    font-family: 'Abril Fatface';
+    color: black;
+    font-size: 20px;
 }
