@@ -1,0 +1,59 @@
+
+body {
+    background-image: radial-gradient(circle, rgba(255, 166, 169, 1) 7%, rgba(255, 213, 231, 1) 41%);
+    }
+
+header  {
+   font-family: 'Abril Fatface', cursive; 
+}
+
+.titlesHeader {
+    margin-top: -8%;
+    }
+
+h1, h2  {
+        display: flex;
+        margin-left: 15%;
+        margin-right: 15%;
+        
+    }
+
+h2 {
+    color: pink;    
+}
+
+
+.image.is-128x128 {
+}
+
+
+.columns{
+    margin-left: 3%;
+    margin-right: 3%;
+    
+}
+
+.card-content {
+  height: 310px;
+}
+
+.title.is-4  {
+    font-size: 23px;
+    font-family: 'Abril Fatface';
+    color: black;
+}
+
+.subtitle.is-6  {
+    font-size: 20px;
+    font-family: '';
+    color: green;
+}
+
+.card:hover {
+    transform: scale(1.04);
+}
+
+.footer {
+    background-color: #F7D5E7;
+    margin-top: 5%;
+}
