@@ -23,10 +23,6 @@ h2 {
 }
 
 
-.image.is-128x128 {
-}
-
-
 .columns{
     margin-left: 3%;
     margin-right: 3%;
@@ -57,6 +53,6 @@ h2 {
     background-color: #F7D5E7;
     margin-top: 5%;
     font-family: 'Abril Fatface';
-    color: black;
-    font-size: 20px;
+    color: #e398a8;
+    font-size: 30px;
 }
