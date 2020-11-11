@@ -4,7 +4,7 @@
 ## About The Project
 
 ### Built With
-This project was mainly built by using Bulma.
+This project was mainly built using Bulma.
 
 * HTML
 * CSS
