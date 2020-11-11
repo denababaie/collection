@@ -11,6 +11,8 @@ header  {
     margin-top: -8%;
     }
 
+
+
 h1, h2  {
         display: flex;
         margin-left: 15%;
@@ -49,6 +51,10 @@ h2 {
     transform: scale(1.04);
 }
 
+.linkTrailer{
+    position: absolute;
+    bottom: 2px;
+}
 .footer {
     background-color: #F7D5E7;
     margin-top: 5%;
