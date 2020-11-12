@@ -27,6 +27,19 @@ const collection = [
 
 
       {
+        title: 'Grand Budapes Hotel ',
+        author: 'Wes Anderson',
+        category: ['Romantic'],
+        link: 'https://www.youtube.com/watch?v=1Fg5iWmQjwk&t=36s&ab_channel=SearchlightPictures',
+        description:  ' A writer encounters the owner of an aging high-class hotel, who tells him of his early years serving as a lobby boy in the hotels glorious years under an exceptional concierge.'
+    
+      },
+
+
+
+
+
+      {
         title: 'Lady Bird ',
         author: 'Greta Gerwig',
         category: ['Comedy'],
@@ -45,13 +58,12 @@ const collection = [
       },
 
 
-
       {
-        title: 'Spirited Away',
-        author: 'Hayao Miyazaki ',
-        category: ['Animated'],
-        link: 'Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan',
-        description:  'In 2002, an artistically inclined seventeen-year-old girl comes of age in SacrameGreed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.'
+        title: '500 Days of Summer',
+        author: 'Marc Webb',
+        category: ['Romantic'],
+        link: 'https://www.youtube.com/watch?v=PsD0NpFSADM&ab_channel=SearchlightPictures',
+        description:  ' An offbeat romantic comedy about a woman who doesnt believe true love exists, and the young man who falls for her.'
     
       },
 
@@ -59,8 +71,17 @@ const collection = [
         title: 'Spirited Away',
         author: 'Hayao Miyazaki ',
         category: ['Animated'],
-        link: 'Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan',
-        description:  'In 2002, an artistically inclined seventeen-year-old girl comes of age in SacrameGreed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.'
+        link: 'https://www.youtube.com/watch?v=5-cro68n7CE&ab_channel=DigitalCin%C3%A9',
+        description: 'During her familys move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods, witches, and spirits, and where humans are changed into beasts.'
+    
+      },
+
+      {
+        title: 'Black Swan',
+        author: 'Darren Aronofsky',
+        category: ['Thriller'],
+        link: 'https://www.youtube.com/watch?v=5jaI1XOB-bs&ab_channel=SearchlightPictures',
+        description:  'A committed dancer struggles to maintain her sanity after winning the lead role in a production of Tchaikovskys "Swan Lake".'
     
       },
       
