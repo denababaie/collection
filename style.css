@@ -8,20 +8,21 @@ header  {
 }
 
 .titlesHeader {
-    margin-top: -8%;
+    display: flex;
+    margin-top: -4.5%;
+    margin-left: -2%;
     }
 
-
-
 h1, h2  {
-        display: flex;
-        margin-left: 15%;
-        margin-right: 15%;
+        margin-left: 5%;
+        margin-right: -6%;
+        
         
     }
 
+
 h2 {
-    color: pink;    
+    color: pink;  
 }
 
 
@@ -31,14 +32,17 @@ h2 {
     
 }
 
+.title  {
+    font-family: 'Abril Fatface', cursive; 
+} 
+
 .card-content {
   height: 310px;
-}
+} 
 
-.title.is-4  {
-    font-size: 23px;
-    font-family: 'Abril Fatface';
+p.title.is-4  {
     color: black;
+    font-size: 23px ;
 }
 
 .subtitle.is-6  {
