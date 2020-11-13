@@ -102,53 +102,35 @@ const collection = [
 
 ];
 
-/*document.querySelector('.movielist').innerHTML = ''
-
-const column = document.querySelector('.movielist');
-
-const columns = document.querySelector(".columns")
-
-const mainContainer = document.querySelector ('.column')
-mainContainer.classname = "column is-one-quarter";
-
-const card = document.createElement("div")
-card.classname = 'card';
-
-const divImg = document.createElement ("div")
-divImg.className = 'card-image';
-
-
-
-columns.appendChild(maintContainer);
-  */
-
 
 for(let element of collection) {
 
+  const column = document.createElement('div');
+  column.classList.add('column','is-one-quarter') 
 
+  const card = document.createElement('div')
+  card.classList.add('card') 
 
-  const colonne = document.createElement('div');
-  colonne.classList.add('column','is-one-quarter') 
+  const card_image = document.createElement('div')
+  card_image.classList.add('card-image')
 
-  const carte = document.createElement('div')
-  carte.classList.add('card') 
-
-  const image = document.createElement('div')
-  image.classList.add('card-image')
+  /*const img = document.createElement('img')
+  img.setAttribute('src',element.image)
+  img.setAttribute('alt', 'Placeholder image')*/
 
   /* encore ajouter figure class */
 
-  const content = document.createElement ('div')
-  carte.classList.add('card-content')
+  const card_content = document.createElement ('div')
+  card_content.classList.add('card-content')
 
   const media = document.createElement ('div')
-  carte.classList.add('media')
+  media.classList.add('media')
 
-  const mediacontent = document.createElement ('div')
-  carte.classList.add('media-content')
+  const media_content = document.createElement ('div')
+  media_content.classList.add('media-content')
 
-  const textright = document.createElement ('div')
-  carte.classList.add('has-text-right')
+  const has_text_right = document.createElement ('div')
+  has_text_right.classList.add('has-text-right')
 
   const tag = document.createElement('span')
   tag.classList.add('tag','is-black')
@@ -157,39 +139,61 @@ for(let element of collection) {
   tag.classList.add('tag','is-warning')
   tag.classList.add('tag','is-dark')
 
+  const cardtitle = document.createElement('div')
+  cardtitle.classList.add('cardtitle')
+
   const title = document.createElement('p')
   title.classList.add('title','is-4')
 
   const subtitle = document.createElement('p')
   subtitle.classList.add('title','is-6')
   
-  /*const grandcontenu = document.createElement('div')
-  grandcontenu.classList.add(content) */
+  const content = document.createElement('div')
+  content.classList.add('content') 
 
-  /*const content = document.createElement('p')
-  content.classList.add('cardtext') */
+  const cardtext = document.createElement('p')
+  cardtext.classList.add('cardtext') 
+
+
 
   const link = document.createElement('p')
-  link.classList.add('linkTrailer')
+  link.classList.add('linkTrailer');
+  /*link.href.add()
+  link.target.add() */
 
+  /*const youtube_icon = document.createElement */
+
+/*const ba = document.createElement('a')
+  ba.classList.add()*/
 
 }  
 
-document.body.appendChild(colonne);
-colonne.appendChild(carte);
-carte.appendChild(image);
 
-carte.appendChild(content);
-carte.appendChild(media);
-carte.appendChild(mediacontent);
-carte.appendChild(textright);
+document.body.appendChild(column);
+column.appendChild(card);
+card_content.appendChild(card_image);
 
-carte.appendChild(tag);
-carte.appendChild(title);
-carte.appendChild(subtitle);
-carte.appendChild(content);
-content.appendChild(link);
+card.appendChild(card_content);
+card_content.appendChild(media);
+media.appendChild(media_content);
+media_content.appendChild(has_text_right); 
+
+has_text_right.appendChild(tag);
+media_content.appendChild(cardtitle);
+cardtitle.appendChild(title);
+media_content.appendChild(subtitle);
+card_content.appendChild(content);
+content.appendChild(cardtext);
+card_content.appendChild(link);
 
 
+/* const serieEnDeuxMots =  []
+for(let element of collection){
+  if(element.title.match(' ')){
+    serieEnDeuxMots.push(element)
 
 
+  }
+}
+console.log(serieEnDeuxMots) */ 
+ 
